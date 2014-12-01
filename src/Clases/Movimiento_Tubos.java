@@ -26,7 +26,7 @@ public class Movimiento_Tubos extends Thread {
             }
         } else if (tubo2 == 90) {
             Sonido.puntos();
-            puntos = puntos + 1;
+            puntos = puntos + 15;
             Juego.jPuntaje.setText(puntos + "");
             if (puntos == 30 || puntos == 50 || puntos == 130 || puntos == 160 || puntos == 200 || puntos == 300) {
                 velocidad = velocidad - 1;
