@@ -55,7 +55,7 @@ public class Juego extends javax.swing.JFrame {
         login = new Login();
         mostrarLogin();
         EventosExternos();
-        this.setTitle("FLAPPY BIRD");
+        this.setTitle("KILL BIRD");
         puntaje = new Puntaje(this);
         posicionflappy = jFlappy.getLocation();
         this.jPanel1.setSize(400, 607);
@@ -204,7 +204,7 @@ public class Juego extends javax.swing.JFrame {
         mvnt_flappy.start();
         empezar = true;
         jFlappy.requestFocus();
-        this.setTitle("FLAPPY BIRD - " + nombre);
+        this.setTitle("KILL BIRD - " + nombre);
     }
 
     public void validarChoqueTubos() {
