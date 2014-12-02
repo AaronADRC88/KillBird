@@ -204,7 +204,7 @@ public class Juego extends javax.swing.JFrame {
         mvnt_flappy.start();
         empezar = true;
         jFlappy.requestFocus();
-        this.setTitle("KILL BIRD - " + nombre);
+        this.setTitle("KILL BIRD -\t " + nombre);
     }
 
     public void validarChoqueTubos() {
