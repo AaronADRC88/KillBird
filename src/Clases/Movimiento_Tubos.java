@@ -19,14 +19,14 @@ public class Movimiento_Tubos extends Thread {
         int tubo2 = Juego.jTubo_arriba2.getLocation().x;
         if (tubo1 == 90) {
             Sonido.puntos();
-            puntos = puntos + 1000000;
+            puntos = puntos + 1;
             Juego.jPuntaje.setText(puntos + "");
             if (puntos == 30 || puntos == 50 || puntos == 130 || puntos == 160 || puntos == 200 || puntos == 300) {
                 velocidad = velocidad - 1;
             }
         } else if (tubo2 == 90) {
             Sonido.puntos();
-            puntos = puntos + 1000000;
+            puntos = puntos + 1;
             Juego.jPuntaje.setText(puntos + "");
             if (puntos == 30 || puntos == 50 || puntos == 130 || puntos == 160 || puntos == 200 || puntos == 300) {
                 velocidad = velocidad - 1;
