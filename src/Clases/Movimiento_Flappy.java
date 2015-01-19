@@ -39,7 +39,7 @@ public class Movimiento_Flappy extends Thread {
                     }
                     parent.validarChoqueTubos();
                 } catch (InterruptedException e) {
-                    System.out.println("Ocurrio un problema " + e);
+                    System.out.println("Error hapened " + e);
                 }
             } else {
                 if (!jumping) {
@@ -82,7 +82,7 @@ public class Movimiento_Flappy extends Thread {
                     break;
                 }
             } catch (InterruptedException e) {
-                System.out.println("Ocurrio un error " + e);
+                System.out.println("Error hapened " + e);
             }
         }
     }
@@ -111,7 +111,7 @@ public class Movimiento_Flappy extends Thread {
                     break;
                 }
             } catch (InterruptedException e) {
-                System.out.println("Ocurrio un error " + e);
+                System.out.println("Error hapened " + e);
             }
         }
     }
